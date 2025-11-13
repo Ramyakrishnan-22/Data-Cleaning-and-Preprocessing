@@ -42,7 +42,6 @@ Converted all column headers to lowercase with underscores.
    * Example:
      
     PatientId → patient_id
-    
     No-show → no_show
     
 # Patient ID Fix
