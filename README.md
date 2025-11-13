@@ -23,10 +23,11 @@ The final cleaned dataset (Cleaned_KaggleV2.xlsx) is fully prepared and suitable
 ✅ Verified no missing values and no duplicate rows.
 
 # 📊 Dataset Information
+Source: Medical Appointment No-Shows dataset
 
-Source: Kaggle – Medical Appointment No-Shows
+Raw file: raw_data
 
-Raw File: KaggleV2-May-2016.csv
+Cleaned file: cleaned_data
 
 Cleaned File: Cleaned_KaggleV2.xlsx
 
@@ -36,24 +37,33 @@ Columns: 14
 
 # 🛠️ Data Cleaning Highlights
 # Column Renaming
+
 Converted all column headers to lowercase with underscores.
    * Example:
+     
     PatientId → patient_id
+    
     No-show → no_show
     
 # Patient ID Fix
+
  Converted to text format to preserve ID integrity
  
 # Date Conversion	
+
  Removed “T/Z” characters and formatted dates
  
 # Text Normalization
+
   * Normalized gender values:
+    
     M → Male
+    
     F → Female
     
 # Outlier Removal
 *Removed unrealistic 
+
    age = -1 record
    
 # Date Consistency Check
@@ -62,8 +72,11 @@ Removed rows where scheduled_day > appointment_day
 # Data Validation
 Checked for missing, duplicate, or invalid values
 *Ensured correct data types:
+
 age → integer
+
 patient_id → string
+
 date columns → datetime
 
 # 📂 Output
@@ -74,5 +87,7 @@ The dataset has been successfully cleaned, validated, and stored in a structured
 This ensures reliable results in downstream tasks such as:
 
 Data analysis
+
 Dashboarding
+
 Machine learning
