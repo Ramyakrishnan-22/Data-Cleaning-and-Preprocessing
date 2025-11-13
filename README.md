@@ -37,7 +37,7 @@ Columns: 14
 # 🛠️ Data Cleaning Highlights
 # Column Renaming
 Converted all column headers to lowercase with underscores.
-Example:
+   * Example:
     PatientId → patient_id
     No-show → no_show
     
@@ -48,12 +48,12 @@ Example:
  Removed “T/Z” characters and formatted dates
  
 # Text Normalization
- Normalized gender values:
+  * Normalized gender values:
     M → Male
     F → Female
     
 # Outlier Removal
-Removed unrealistic 
+*Removed unrealistic 
    age = -1 record
    
 # Date Consistency Check
@@ -61,7 +61,7 @@ Removed rows where scheduled_day > appointment_day
 
 # Data Validation
 Checked for missing, duplicate, or invalid values
-Ensured correct data types:
+*Ensured correct data types:
 age → integer
 patient_id → string
 date columns → datetime
