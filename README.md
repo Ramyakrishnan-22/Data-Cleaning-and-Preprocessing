@@ -1,5 +1,5 @@
 # Data Preprocessing and Quality Improvement
-<a href="">cleaned_data</a>
+
 📌 Description
 This project is part of a Data Analyst Internship Task focused on cleaning and preprocessing the KaggleV2-May-2016 (Medical Appointment No-Shows) dataset.
 The dataset provides information about patients, their scheduled appointments, and whether they attended or missed those appointments.
